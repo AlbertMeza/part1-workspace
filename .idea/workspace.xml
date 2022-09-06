@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afe1a993-f026-4108-b4fc-c9f709542f99" name="Changes" comment="Initial commit.">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/part1-workspace.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="afe1a993-f026-4108-b4fc-c9f709542f99" name="Changes" comment="Added verifyInternetConnection method.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab02.2/src/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02.2/src/Television.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02.2/src/TelevisionClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02.2/src/TelevisionClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +56,21 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="TelevisionClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="TelevisionClient" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TelevisionClient" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,7 +85,11 @@
       <workItem from="1662152912038" duration="3456000" />
       <workItem from="1662475257596" duration="217000" />
       <workItem from="1662477772280" duration="2320000" />
-      <workItem from="1662481149989" duration="2386000" />
+      <workItem from="1662481149989" duration="5588000" />
+      <workItem from="1662498989228" duration="99000" />
+      <workItem from="1662499101959" duration="187000" />
+      <workItem from="1662499322988" duration="57000" />
+      <workItem from="1662499472748" duration="984000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1662479099249</created>
@@ -83,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662479099250</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added verifyInternetConnection method.">
+      <created>1662487001192</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662487001192</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit." />
+    <MESSAGE value="Added verifyInternetConnection method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added verifyInternetConnection method." />
   </component>
 </project>
