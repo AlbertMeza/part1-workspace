@@ -5,66 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afe1a993-f026-4108-b4fc-c9f709542f99" name="Changes" comment="Initial commit.">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/part1-workspace.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab02.2/Lab02.2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab02.2/src/Television.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab02.2/src/TelevisionClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab05.2/Lab05.2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab05.2/src/ConcertTimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab05.2/src/DateTimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab05.2/src/DerivedDateTimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab07.2-Client/Lab07.2-Client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab07.2-Client/src/com/entertainment/client/TelevisionClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab07.2/Lab07.2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab07.2/src/com/entertainment/DisplayType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab07.2/src/com/entertainment/Television.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab07.2/src/com/entertainment/util/Useful.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab08.1/Lab08.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab08.1/src/com/entertainment/DisplayType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab08.1/src/com/entertainment/Television.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab08.1/src/com/entertainment/Tuner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab08.1/src/com/entertainment/client/TelevisionClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab08.2/Lab08.2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab08.2/src/com/hr/personnel/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab08.2/src/com/hr/personnel/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab08.2/src/com/hr/personnel/client/HRClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab09.1/Lab09.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab09.1/src/com/hr/corp/Corporation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab09.1/src/com/hr/corp/client/TaxClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab09.1/src/gov/irs/IRS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab09.1/src/gov/irs/TaxPayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10.1/Lab10.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10.1/src/com/hr/personnel/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10.1/src/com/hr/personnel/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10.1/src/com/hr/personnel/HourlyEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10.1/src/com/hr/personnel/SalariedEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10.1/src/com/hr/personnel/client/HRClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10.1/src/gov/irs/IRS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab10.1/src/gov/irs/TaxPayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab12.1/Lab12.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab12.1/famous-poem.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab12.1/src/com/poetry/io/PoemClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab12.2/Lab12.2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab12.2/src/com/data/io/PersonDataClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab12.2/src/com/lp/net/DirectHttpRequestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab12.2/src/com/lp/net/HttpClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniLab03.1/MiniLab03.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniLab03.1/src/Television.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniLab03.1/src/TelevisionClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniLab05.1/MiniLab05.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniLab05.1/src/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniLab05.1/src/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniLab05.1/src/Marker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniLab08.1/MiniLab08.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniLab08.1/src/com/javatunes/member/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniLab08.1/src/com/javatunes/member/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiniLab08.1/src/com/javatunes/member/SubMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/part1-workspace.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02.2/src/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02.2/src/Television.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,23 +38,23 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/albertmeza/SDETLG/Java-Part1/StudentWork/IntroJava/part1-workspace",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/albertmeza/SDETLG/Java-Part1/StudentWork/IntroJava/part1-workspace&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -126,8 +73,17 @@
       <workItem from="1662136008334" duration="64000" />
       <workItem from="1662152912038" duration="3456000" />
       <workItem from="1662475257596" duration="217000" />
-      <workItem from="1662477772280" duration="1217000" />
+      <workItem from="1662477772280" duration="2320000" />
+      <workItem from="1662481149989" duration="2386000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit.">
+      <created>1662479099249</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662479099250</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
