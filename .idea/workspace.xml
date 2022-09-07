@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afe1a993-f026-4108-b4fc-c9f709542f99" name="Changes" comment="Added verifyInternetConnection method.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab02.2/src/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02.2/src/Television.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab02.2/src/TelevisionClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02.2/src/TelevisionClient.java" afterDir="false" />
-    </list>
+    <list default="true" id="afe1a993-f026-4108-b4fc-c9f709542f99" name="Changes" comment="Added verifyInternetConnection method." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +86,7 @@
       <workItem from="1662499101959" duration="187000" />
       <workItem from="1662499322988" duration="57000" />
       <workItem from="1662499472748" duration="984000" />
+      <workItem from="1662584449778" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1662479099249</created>
