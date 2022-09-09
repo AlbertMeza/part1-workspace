@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afe1a993-f026-4108-b4fc-c9f709542f99" name="Changes" comment="Added verifyInternetConnection method." />
+    <list default="true" id="afe1a993-f026-4108-b4fc-c9f709542f99" name="Changes" comment="Added verifyInternetConnection method.">
+      <change afterPath="$PROJECT_DIR$/Lab02.2/src/DisplayType.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Lab02.2/src" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -87,6 +89,8 @@
       <workItem from="1662499322988" duration="57000" />
       <workItem from="1662499472748" duration="984000" />
       <workItem from="1662584449778" duration="13000" />
+      <workItem from="1662664558345" duration="976000" />
+      <workItem from="1662698867733" duration="496000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1662479099249</created>
