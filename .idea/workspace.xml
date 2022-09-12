@@ -4,24 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d91f2fd0-086c-4b9e-a71c-973f1980b76b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lab07.1/src/DisplayType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab07.1/src/Television.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab07.1/src/TelevisionClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab07.1/src/TelevisionClientArgs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab07.1/src/TelevisionMuteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab07.1/src/TelevisionValidationTest.java" afterDir="false" />
+    <list default="true" id="d91f2fd0-086c-4b9e-a71c-973f1980b76b" name="Changes" comment="Lab 5.2 initial commit">
+      <change afterPath="$PROJECT_DIR$/Lab07.2-Client/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab07.2/src/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab02.2/src/TelevisionClientArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab02.2/src/TelevisionClientArgs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab05.2/Lab05.2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab05.2/src/ConcertTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.2/src/ConcertTimeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab05.2/src/DateTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab05.2/src/DateTimeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab07.2-Client/Lab07.2-Client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab07.2-Client/Lab07.2-Client.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,11 +44,31 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Global Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="TelevisionClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.entertainment.client.TelevisionClient" />
+      <module name="Lab07.2-Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.entertainment.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TelevisionClient" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,8 +77,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662997158603</updated>
-      <workItem from="1662997160529" duration="4858000" />
+      <workItem from="1662997160529" duration="6983000" />
     </task>
+    <task id="LOCAL-00001" summary="Lab 5.2 initial commit">
+      <created>1663012071463</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663012071463</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,5 +102,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lab 5.2 initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 5.2 initial commit" />
   </component>
 </project>
