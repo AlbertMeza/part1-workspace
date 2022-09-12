@@ -33,6 +33,8 @@ public class Television {
     private int volume;
     private DisplayType display = DisplayType.LED;
 
+    private Tuner tuner = new Tuner(); //instantiated internally
+
     // CONSTRUCTORS - special methods that get called when the client says "new"
     public Television() {
         instanceCount++;
@@ -121,6 +123,14 @@ public class Television {
         return "com.entertainment.Television" +
                 ": brand=" + getBrand() +
                 ", volume=" + getVolume() +
-                ", display=" + getDisplay();
+                ", display=" + getDisplay() +
+                ", channel=" + getCurrentChannel();
+    }
+
+    public void changeChannel(String channel){
+        tuner.setChannel(channel);
+    }
+    public String getCurrentChannel(){
+        return tuner.getChannel();
     }
 }
