@@ -22,9 +22,9 @@ class DateTimeTest {
      * To run one test method at a time, uncomment the call to the one you want to execute.
      */
     public static void main(String[] args) {
-        // testNow();
-        // testCreate();
-        // testParse();
+        testNow();
+        testCreate();
+        testParse();
         // testFormat();
     }
 
@@ -32,7 +32,13 @@ class DateTimeTest {
      * TASK: create current date, time, and date-time via now() and then print them.
      */
     public static void testNow() {
-        // TODO
+        LocalDate today = LocalDate.now();
+        System.out.println(today);
+        LocalTime time = LocalTime.now();
+        System.out.println(time);
+        LocalDateTime dateTime = LocalDateTime.now();
+        System.out.println(dateTime);
+        System.out.println();
     }
 
     /**
@@ -40,9 +46,17 @@ class DateTimeTest {
      */
     public static void testCreate() {
         // TODO: create your birthday via of(). What day of the week were you born on?
-
+        LocalDate albertBirthday = LocalDate.of(1996, 10, 25);
+        System.out.println(albertBirthday);
+        System.out.println(albertBirthday.getDayOfWeek());
+        System.out.println();
         // TODO: use of() to create a value representing the 1st lunar landing - it happened on 7/20/69 at 3:18pm Eastern Time.
         // NOTE: ignore time-zone, just assume Eastern Time is the local time.
+        LocalDate lunarDate = LocalDate.of(1969, 07, 20);
+        LocalTime lunarTime = LocalTime.of(15, 18);
+        LocalDateTime lunarLanding = LocalDateTime.of(lunarDate, lunarTime);
+        System.out.println(lunarLanding);
+        System.out.println();
     }
 
     /**
@@ -50,8 +64,12 @@ class DateTimeTest {
      */
     public static void testParse() {
         // TODO: create your birthday by parsing a text representation in standard format ("yyyy-MM-dd").
-
+        LocalDate bday = LocalDate.parse("1994-07-19");
+        System.out.println(bday);
         // OPTIONAL: now create it by parsing text in the form "2/6/2014" (this is Feb 6, not Jun 2).
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");
+        LocalDate bday2 = LocalDate.parse("07/19/1994", formatter);
+        System.out.println(bday2);
     }
 
     /**
