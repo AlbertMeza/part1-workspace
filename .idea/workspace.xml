@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d91f2fd0-086c-4b9e-a71c-973f1980b76b" name="Changes" comment="Completed Lab 5.2 optional portion">
-      <change afterPath="$PROJECT_DIR$/Scratch/src/StringTest.java" afterDir="false" />
+    <list default="true" id="d91f2fd0-086c-4b9e-a71c-973f1980b76b" name="Changes" comment="Added Scratch module, completed mini lab">
+      <change afterPath="$PROJECT_DIR$/Lab08.2/src/com/hr/personnel/HourlyEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab08.2/src/com/hr/personnel/SalaryEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab08.2/src/com/hr/personnel/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08.2/src/com/hr/personnel/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab08.2/src/com/hr/personnel/client/HRClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab08.2/src/com/hr/personnel/client/HRClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,26 +37,44 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/albertmeza/SDETLG/Java-Part1/StudentWork/IntroJava/part1-workspace",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/albertmeza/SDETLG/Java-Part1/StudentWork/IntroJava/part1-workspace&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.StringTest">
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hr.personnel" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HRClient">
     <configuration name="ConcertTimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConcertTimeTest" />
       <module name="Lab05.2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HRClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hr.personnel.client.HRClient" />
+      <module name="Lab08.2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hr.personnel.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,6 +114,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HRClient" />
         <item itemvalue="Application.StringTest" />
         <item itemvalue="Application.ConcertTimeTest" />
         <item itemvalue="Application.TelevisionClient (1)" />
@@ -108,7 +131,8 @@
       <option name="presentableId" value="Default" />
       <updated>1662997158603</updated>
       <workItem from="1662997160529" duration="11366000" />
-      <workItem from="1663071516979" duration="1057000" />
+      <workItem from="1663071516979" duration="1193000" />
+      <workItem from="1663101847692" duration="5265000" />
     </task>
     <task id="LOCAL-00001" summary="Lab 5.2 initial commit">
       <created>1663012071463</created>
@@ -138,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663072327706</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Scratch module, completed mini lab">
+      <created>1663072707642</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663072707642</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +191,8 @@
     <MESSAGE value="Completed Lab07.2, Lab07.2Client" />
     <MESSAGE value="Completed Lab08.1" />
     <MESSAGE value="Completed Lab 5.2 optional portion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Lab 5.2 optional portion" />
+    <MESSAGE value="Added Scratch module, completed mini lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Scratch module, completed mini lab" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
