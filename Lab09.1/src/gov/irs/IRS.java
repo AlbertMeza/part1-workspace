@@ -20,7 +20,10 @@ public class IRS {
 
     public void collectTaxes() {
         for (int i = 0; i < currentIndex; i++) {
+            double deduction = payers[i].getStandardReduction();
+            System.out.println("Tax payer's reduction is " + deduction);
             payers[i].payTaxes();
+            System.out.println();
         }
     }
     
