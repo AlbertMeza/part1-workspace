@@ -4,16 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d91f2fd0-086c-4b9e-a71c-973f1980b76b" name="Changes" comment="Completed labs 09.1 and 09.2">
-      <change afterPath="$PROJECT_DIR$/Lab10.1/src/gov/irs/IllegalWageException.java" afterDir="false" />
+    <list default="true" id="d91f2fd0-086c-4b9e-a71c-973f1980b76b" name="Changes" comment="Completed labs 10.1 and 10.2">
+      <change afterPath="$PROJECT_DIR$/Lab11.1/src/com/hr/corp/Corporation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab11.1/src/com/hr/corp/client/TaxClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab11.1/src/com/hr/personnel/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab11.1/src/com/hr/personnel/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab11.1/src/com/hr/personnel/HourlyEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab11.1/src/com/hr/personnel/SalaryEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab11.1/src/com/hr/personnel/client/HRClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab11.1/src/gov/irs/IRS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab11.1/src/gov/irs/TaxPayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab10.1/src/com/hr/personnel/HourlyEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab10.1/src/com/hr/personnel/HourlyEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab10.1/src/com/hr/personnel/client/HRClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab10.1/src/com/hr/personnel/client/HRClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Lab11.1">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Lab11.1" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -26,6 +54,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Lab11.1/src/gov/irs/IRS.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -36,28 +67,29 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_directory_selection&quot;: &quot;/Users/albertmeza/SDETLG/Java-Part1/StudentWork/IntroJava/part1-workspace/Lab09.1/src&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/albertmeza/SDETLG/Java-Part1/StudentWork/IntroJava/part1-workspace/Lab09.1/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_directory_selection": "/Users/albertmeza/SDETLG/Java-Part1/StudentWork/IntroJava/part1-workspace/Lab09.1/src",
+    "last_opened_file_path": "/Users/albertmeza/SDETLG/Java-Part1/StudentWork/IntroJava/part1-workspace/Lab11.1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.hr.personnel" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Lab11.1" />
       <recent name="$PROJECT_DIR$/Lab09.1/src" />
       <recent name="$PROJECT_DIR$/Lab09.1" />
     </key>
@@ -138,7 +170,8 @@
       <workItem from="1663071516979" duration="1193000" />
       <workItem from="1663101847692" duration="5578000" />
       <workItem from="1663185489695" duration="6416000" />
-      <workItem from="1663271363064" duration="4716000" />
+      <workItem from="1663271363064" duration="5148000" />
+      <workItem from="1663349562527" duration="4130000" />
     </task>
     <task id="LOCAL-00001" summary="Lab 5.2 initial commit">
       <created>1663012071463</created>
@@ -189,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663194338955</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Completed labs 10.1 and 10.2">
+      <created>1663281298072</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663281298072</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +254,8 @@
     <MESSAGE value="Added Scratch module, completed mini lab" />
     <MESSAGE value="Lab08.2" />
     <MESSAGE value="Completed labs 09.1 and 09.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed labs 09.1 and 09.2" />
+    <MESSAGE value="Completed labs 10.1 and 10.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed labs 10.1 and 10.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -223,6 +264,11 @@
           <url>file://$PROJECT_DIR$/Lab08.1/src/com/entertainment/client/TelevisionClient.java</url>
           <line>20</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Lab11.1/src/com/hr/personnel/Department.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
