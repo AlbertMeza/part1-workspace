@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d91f2fd0-086c-4b9e-a71c-973f1980b76b" name="Changes" comment="Completed labs 10.1 and 10.2">
-      <change afterPath="$PROJECT_DIR$/Lab11.1/src/com/hr/corp/Corporation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab11.1/src/com/hr/corp/client/TaxClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab11.1/src/com/hr/personnel/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab11.1/src/com/hr/personnel/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab11.1/src/com/hr/personnel/HourlyEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab11.1/src/com/hr/personnel/SalaryEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab11.1/src/com/hr/personnel/client/HRClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab11.1/src/gov/irs/IRS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab11.1/src/gov/irs/TaxPayer.java" afterDir="false" />
+    <list default="true" id="d91f2fd0-086c-4b9e-a71c-973f1980b76b" name="Changes" comment="Completed labs 11.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab12.1/src/com/poetry/io/PoemClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab12.1/src/com/poetry/io/PoemClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,23 +59,23 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_directory_selection": "/Users/albertmeza/SDETLG/Java-Part1/StudentWork/IntroJava/part1-workspace/Lab09.1/src",
-    "last_opened_file_path": "/Users/albertmeza/SDETLG/Java-Part1/StudentWork/IntroJava/part1-workspace/Lab11.1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/albertmeza/SDETLG/Java-Part1/StudentWork/IntroJava/part1-workspace/Lab09.1/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/albertmeza/SDETLG/Java-Part1/StudentWork/IntroJava/part1-workspace/Lab11.1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.hr.personnel" />
@@ -94,14 +86,7 @@
       <recent name="$PROJECT_DIR$/Lab09.1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HRClient (1)">
-    <configuration name="ConcertTimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConcertTimeTest" />
-      <module name="Lab05.2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PoemClient">
     <configuration name="HRClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hr.personnel.client.HRClient" />
       <module name="Lab10.1" />
@@ -121,6 +106,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hr.personnel.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PoemClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.poetry.io.PoemClient" />
+      <module name="Lab12.1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab12.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.poetry.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,13 +147,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.HRClient" />
+      <item itemvalue="Application.HRClient (1)" />
+      <item itemvalue="Application.PoemClient" />
+      <item itemvalue="Application.StringTest" />
+      <item itemvalue="Application.TaxClient" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PoemClient" />
         <item itemvalue="Application.HRClient (1)" />
         <item itemvalue="Application.TaxClient" />
         <item itemvalue="Application.HRClient" />
         <item itemvalue="Application.StringTest" />
-        <item itemvalue="Application.ConcertTimeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +177,9 @@
       <workItem from="1663101847692" duration="5578000" />
       <workItem from="1663185489695" duration="6416000" />
       <workItem from="1663271363064" duration="5148000" />
-      <workItem from="1663349562527" duration="4130000" />
+      <workItem from="1663349562527" duration="4832000" />
+      <workItem from="1663427591707" duration="6000" />
+      <workItem from="1663602905073" duration="4108000" />
     </task>
     <task id="LOCAL-00001" summary="Lab 5.2 initial commit">
       <created>1663012071463</created>
@@ -229,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663281298072</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Completed labs 11.1">
+      <created>1663357660802</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663357660802</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +270,8 @@
     <MESSAGE value="Lab08.2" />
     <MESSAGE value="Completed labs 09.1 and 09.2" />
     <MESSAGE value="Completed labs 10.1 and 10.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed labs 10.1 and 10.2" />
+    <MESSAGE value="Completed labs 11.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed labs 11.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
